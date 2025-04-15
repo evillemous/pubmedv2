@@ -9,5 +9,12 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    allowedHosts: [
+      'medical-research-generator-tunnel-lvxwtt82.devinapps.com',
+      'medical-research-app-tunnel-ftha50d1.devinapps.com',
+      '*.devinapps.com'
+    ],
+  },
 })
 
