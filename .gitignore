@@ -1,0 +1,11 @@
+# Ignore sensitive files
+backend/src/scripts/test_openai.js
+backend/src/scripts/test_entrez.js
+backend/src/scripts/updateSettings.ts
+backend/src/scripts/update_settings.sql
+backend/node_modules/
+backend/dist/
+postgres-data/
+.env
+*.log
+
