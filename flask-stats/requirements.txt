@@ -1,0 +1,11 @@
+flask==2.3.3
+flask-cors==4.0.0
+numpy==1.26.0
+scipy==1.11.3
+pandas==2.1.1
+matplotlib==3.8.0
+seaborn==0.13.0
+rpy2==3.5.14
+gunicorn==21.2.0
+# R packages that need to be installed in the R environment
+# Install with: R -e "install.packages('meta', repos='http://cran.rstudio.com/')"
